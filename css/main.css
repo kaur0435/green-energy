@@ -1,0 +1,205 @@
+/*
+List of Colors used:
+#000
+#fff
+#c4f1be
+#008000
+*/
+
+body {
+    font-family: 'Imprima', sans-serif;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    color: #000;
+    text-align: left;
+    margin: 2rem;
+    background-image: url(../img/body_bg2.jpg);
+    background-size: cover;
+}
+
+.masthead {
+    background-image: url(../img/bg.jpg);
+    padding: 1.5rem;
+    text-align: center;
+}
+
+h1,
+h2 {
+    font-family: 'Gabriela', serif;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+    padding-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+nav {
+    background-color: #c4f1be;
+    border: 2px solid #008000;
+}
+
+nav ul {
+    padding-top: 0.75rem;
+}
+
+nav ul li {
+    display: block;
+    text-decoration: none;
+}
+
+nav ul li a {
+    color: #008000;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul li a:visited {
+    text-decoration: none;
+}
+
+main {
+    background-color: #c4f1be;
+    padding: 3.5%;
+}
+
+footer {
+    background-image: url(../img/bg.jpg);
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.sizef {
+    font-size: 3.5rem;
+    margin-right: 3%;
+    color: #fff;
+}
+
+footer a:link,
+footer a:hover,
+footer a:active,
+footer a:visited {
+    text-decoration: none;
+}
+
+.ge_btns {
+    margin-bottom: 5%;
+}
+
+button {
+    width: 13%;
+}
+
+button img {
+    width: 100%;
+    height: auto;
+}
+
+.btns {
+    padding: 0;
+    margin: auto;
+    margin-right: 1%;
+}
+
+#active {
+    background-color: #008000;
+}
+
+.ge_images img {
+    width: 100%;
+    height: auto;
+}
+
+.heading {
+    margin-top: 5%;
+    font-family: 'Gabriela', serif;
+    font-size: 1.25rem;
+    color: black;
+}
+
+.heading h3 {
+    font-size: 1.5rem;
+    color: #008000;
+    font-weight: bold;
+}
+
+.text p {
+    font-size: 1.5em;
+    font-family: 'Imprima', sans-serif;
+}
+
+@media screen and (min-width: 30rem) {
+    body {
+        max-width: 60rem;
+        margin: auto;
+        font-size: 1rem;
+    }
+
+    .masthead {
+        padding: 2rem;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    nav ul li {
+        display: inline-block;
+    }
+
+    nav ul li a {
+        font-size: 1.75rem;
+        padding: 2.5rem;
+    }
+
+    button {
+        width: 6.5%;
+    }
+
+    .content {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .ge_images {
+        width: 25%;
+        float: left;
+        padding-right: 3%;
+        padding-bottom: 1%;
+    }
+
+    .text {
+        float: none;
+        width: auto;
+    }
+
+    .heading {
+        width: 100%;
+        margin-top: 0;
+        padding-bottom: 0;
+        font-size: 2rem;
+    }
+
+    .heading h3 {
+        font-size: 2.5rem;
+    }
+
+    .text p {
+        font-size: 1.3em;
+    }
+}
